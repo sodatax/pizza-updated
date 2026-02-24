@@ -54,6 +54,7 @@ app.post('/submit-order', (req, res) => {
     res.sendFile(`${import.meta.dirname}/views/confirmation.html`);
 });
 
+// Listen on the designated port
 app.listen(PORT, () => {
     console.log(`Server is running at http://localhost:${PORT}`);
 });
