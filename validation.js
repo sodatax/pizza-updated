@@ -27,7 +27,7 @@ export function validateForm(data) {
     }
 
     //validate method (small, medium, large)
-    const validSize = ['small', 'medium', 'large'];
+    const validSize = ['small', 'medium', 'large']; 
     if(!validSize.includes(data.size)){
         errors.push("Must select a size");
     }
